@@ -1,0 +1,261 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Squibby desktop
+Task-Extended-Description: The Squibby Linux environment using KDE Plasma Desktop
+Task-Key: squibby-desktop
+Task-Seeds: desktop-common
+
+= Hardware and Architecture Support =
+
+== Architecture-independent ==
+
+Bluetooth:
+
+ * (bluedevil)
+ * (pulseaudio-module-bluetooth) # Bluetooth audio devices by default
+
+= Network Services =
+
+Basic network services and Windows integration.
+
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (plasma-widget-networkmanagement)
+ * (mobile-broadband-provider-info)
+
+= GUI infrastructure =
+
+Extra fonts (should be common, but not so for space reasons):
+
+ * (ttf-wqy-microhei)
+ * (fonts-nanum)
+ * (fonts-liberation)
+
+Input methods:
+
+ * (im-switch)
+ * (ibus-qt4)  # ibus support
+ * (plasma-widget-kimpanel)
+
+= Desktop KDE Apps =
+
+We've chosen KDE Software as our desktop user interface of choice
+
+== kde-runtime ==
+
+ * khelpcenter4
+ * phonon-backend-gstreamer
+
+== kdebase ==
+
+ * kdepasswd
+ * (rekonq)
+ * konsole
+ * (plasma-widget-folderview)
+
+== kde-workspace ==
+
+ * kde-workspace-bin # Plasma, ksplash and more
+ * kde-window-manager
+ * klipper
+ * ksysguard
+ * systemsettings
+
+== kdeadmin ==
+
+ * (system-config-printer-kde)
+
+== kdegraphics ==
+
+ * (kamera)
+ * (gwenview)
+
+== kdemultimedia ==
+
+ * kdemultimedia-kio-plugins
+ * kmix
+
+== kdenetwork ==
+
+ * kde-zeroconf
+ * (kopete) # Replace with kde-telepathy after 12.04 release.
+ #* (kde-telepathy) # To be default in 12.10
+
+== kdeutils ==
+
+ * ark
+ * (printer-applet)
+ * (kwalletmanager)
+ * (kcalc)
+
+== everything else KDE ==
+
+ * (userconfig)       # In place of kuser (which is on the dvd)
+ * (muon)
+ * (muon-installer)
+ * (muon-notifier)
+ * (polkit-kde-1) # needed by muon but is an option compared to gtk polkit for gnome users
+ * (gstreamer0.10-qapt)
+ * (gtk2-engines-oxygen)
+ * (gtk3-engines-oxygen)
+ * (kdesudo) # simpler and more reliable than kdesu
+ * xdg-user-dirs
+ * (upower) # Recommends so people can keep hal if they want it
+ * (udisks) # Recommends so people can keep hal if they want it
+ * language-selector-kde
+ * software-properties-kde
+ * (apport-kde)
+ * (xdg-utils)         # useful utilities
+ * (jockey-kde) # installer for drivers
+ * (kubuntu-default-settings)
+ * (plasma-widgets-addons)
+ * (kubuntu-notification-helper)
+ * (qapt-deb-installer)
+ * (oxygen-cursor-theme)
+ * (oxygen-icon-theme)
+# * (oxygen-icon-theme-complete) [i386]  #out of space for precice
+ * (libqca2-plugin-ossl)
+ * (kde-config-gtk) #GTK setup
+ * (xsettings-kde)
+ * (plasma-widget-message-indicator)
+ * (plasma-widget-facebook)  # more social from the start
+ * (apturl-kde)
+ * (pulseaudio)
+ * (partitionmanager)
+ * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
+
+Accessibility tools:
+
+ * (kaccessible)
+ * (kmag)
+# * (kde-icons-mono) [i386]
+# * (kbstate) # perhaps replace with plasma-widget-kbstate for 10.10?
+ * (kvkbd)
+ * (xcursor-themes)
+
+Documentation:
+
+ * (kubuntu-docs) # removed before beta 2
+
+= Other =
+
+ * (plymouth-theme-kubuntu-text)
+ * (plymouth-theme-kubuntu-logo)
+ * (cryptsetup) #needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
+
+= On top of kubuntu-common =
+ * plasma-desktop # Plasma for desktops/laptops
+ * (k3b)        # kde CD burning
+
+= On top of kubuntu-common =
+ * plasma-netbook
+ * kubuntu-netbook-default-settings
+
+== kdebase ==
+
+ * dolphin
+ * kdm
+
+== kdepim ==
+
+ * (akregator)
+ * (kaddressbook)
+ * (kdepim-kresources)
+ * (kdepim-strigi-plugins)
+ * (kdepim-runtime)
+# * (kleopatra)  # Also does general gpg key management stuff [needs dirmngr MIR]
+ * (kmail)
+ * (knotes)
+ * (kontact)
+ * (korganizer)
+ * (ktimetracker) [i386]
+
+== kdeadmin ==
+
+ * (ksystemlog)
+
+== kdegames ==
+
+ * (kpat)
+
+== kdegraphics ==
+
+ * (kdegraphics-strigi-analyzer)
+ * ksnapshot
+ * okular
+ * (okular-extra-backends)
+
+== kdemultimedia ==
+
+ * (dragonplayer)
+
+== kdenetwork ==
+
+ * (kppp)
+# * (krdc) [i386] # Not included for lack of room
+# * (krfb) [i386] # Not included for lack of room
+ * (kdenetwork-filesharing)
+
+== kdesdk ==
+
+ * (kate)
+
+== calligra ==
+
+# * (krita)
+# * (kexi)                 # instead of openoffice-base
+
+== everything else KDE ==
+
+ * (quassel)            # replacement for konversation for IRC
+ * (amarok)         # audio multimediaplayer
+ * (kubuntu-web-shortcuts)
+ * (ktorrent)
+ * (cdrdao)
+#  * (digikam)  needs kdebase-kio-plugins
+ * (pinentry-qt4) # for SMIME e-mail support
+ * (gnupg-agent) # for SMIME e-mail support
+ * (gpgsm) # SMIME engine
+# * (plasma-widget-googlecalendar)  # more social from the start (easily reproducible runtime crash)
+# * (kipi-plugins)
+ * (kde-config-touchpad)
+ * (plasma-widget-menubar)
+ * (appmenu-gtk)
+ * (appmenu-gtk3)
+
+Accessibility tools:
+
+ * (kmousetool)
+ * (brltty)
+
+= Other Desktop GUI Apps =
+
+ * (libreoffice-style-oxygen) [i386 amd64] # to avoid openoffice.org-style-human
+ * (libreoffice-kde) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-writer) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-calc) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-impress) [i386 amd64] # powerpc oversized, armel broken
+
+= Other =
+
+ * (kubuntu-firefox-installer)
+ * (usb-creator-kde) [i386 amd64]
+
+= Some games (because we can and so the catagory won't be empty)
+# * (kdiamond)
+# * (kmahjongg)
+# * (kmines)
+# * (kreversi)
+# * (ksudoku)
+# * (lskat)
+# * (kpat)
+
+= Some EDU stuff (same reason)
+# * (parley)
+# * (ktouch)
+# * (kanagram)
+
+= Because netbooks are for the net
+# * (blogilo) # blogging client
+
+= Other =
+ * squibby-desktop # the metapackage itself

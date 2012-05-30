@@ -1,0 +1,80 @@
+== Kernel ==
+
+ * linux [amd64 i386]
+
+== Server ==
+
+ * ssh
+ * nfs-kernel-server   # need an NFS server
+
+== Networking ==
+
+ * bsd-mailx
+ * vlan                   # userland tools to config 8021q support
+
+== Common UNIX stuff ==
+
+ * nfs-common		  # allows people to access NFS filesystems
+ # * vim                    # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
+
+== Hardware & Network Access ==
+
+ * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
+ * ndiswrapper-utils-1.9 [amd64 i386]
+# * ndisgtk
+
+ * libatm1	# suggested by ppp for PPP-over-ATM
+ * setserial	# needed by folks with nonstandard serial ports
+ * b43-fwcutter
+
+== Common language packs ==
+
+ # must have
+ * Languages: en
+ * language-pack-${Languages}
+ * language-pack-kde-${Languages}
+
+# subset of English language support which we want by default:
+ * libreoffice-help-en-us [!powerpc]
+ * hunspell-en-us [!powerpc]
+ * openoffice.org-hyphenation [!powerpc]
+ * wamerican [!powerpc]
+
+#by order of popcon (de es fr ru it pt pl ja zh nl cs sv hu el)
+ * Languages: de es
+ * language-pack-${Languages} [i386 amd64 powerpc]
+ * language-pack-kde-${Languages} [i386 amd64 powerpc]
+
+#fill up extra space
+ * Languages: fr
+ * language-pack-${Languages} [i386 powerpc]
+ * language-pack-kde-${Languages} [i386 powerpc]
+
+#fill up extra space
+ * Languages: ru
+ * language-pack-${Languages} [powerpc]
+ * language-pack-kde-${Languages} [powerpc]
+
+== documentation ==
+ * kubuntu-docs
+
+== Installer ==
+
+ * grub # needed for dmraid et al
+ * oem-config-kde
+ * oem-config-slideshow-ubuntu # revert once #987050 is fixed
+
+== Transitional packages ==
+
+== Germinate workarounds ==
+
+ * wamerican  # iamerican Depends: ispell Recommends: wordlist, but wamerican isn't spotted in time so germinate arbitrarily picks miscfiles instead
+
+== Blacklist ==
+
+libavcodec cannot be shipped on CDs (cf. Ubuntu technical board resolution 2007-01-02).
+
+ * !libavcodec*
+
+workaround for LP#376396
+ * !phonon-backend-null

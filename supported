@@ -1,0 +1,101 @@
+Most of what was formerly in the supported seed is now in the dvd seed. This
+seed now includes some things that are too big for a DVD, and of course also
+inherits from everything else.
+
+= Rescued from Extra =
+
+ * Extra-Include: *-dbg *-debug *-dev *-doc *-docs *-gcj
+
+... and some miscellaneous exclusions for things we don't want to drag in
+automatically (note that Extra-Exclude *only* prevents packages from being
+included due to matching Extra-Include patterns, and has no other effect):
+
+ * Extra-Exclude: libstdc++6-doc libstdc++6-dev libstdc++6-dbg lib*stdc++6-4.1*
+ * Extra-Exclude: libgnat*-dev libgnat*-dbg gnat*-doc
+ * Extra-Exclude: gpc*-doc
+ * Extra-Exclude: lib*mudflap*
+ * Extra-Exclude: lib*go0-dbg
+ * Extra-Exclude: gfortran-4.1-doc lib*gfortran1-dbg
+ * Extra-Exclude: lib*objc1-dbg
+ * Extra-Exclude: libavformat-dev libpostproc-dev
+ * Extra-Exclude: libgdchart-gd2-xpm-dev
+ * Extra-Exclude: libgdome2-ocaml-dev
+ * Extra-Exclude: libmpich-mpd1.0-dev libmpich-shmem1.0-dev
+ * Extra-Exclude: libnetpbm9-dev
+ * Extra-Exclude: libavahi-compat-howl-dev
+ * Extra-Exclude: libboost-*-dev
+ * Extra-Exclude: libcdio-*-dev libiso9660-dev
+ * Extra-Exclude: libxaw6*		# built from the same source as libxaw7*
+ * Extra-Exclude: nvidia-glx-legacy-dev # nvidia-glx-legacy is unsupportable
+ * Extra-Exclude: ubuntu-mobile-dev
+ * Extra-Exclude: evolution-data-server-dbg evolution-data-server-dev
+ * Extra-Exclude: libsoup2.4-dev libgdata1.2-dev libgdata-google1.2-dev libexchange-storage1.2-dev libegroupwise1.2-dev libedataserverui1.2-dev libedataserver1.2-dev libedata-cal1.2-dev libedata-book1.2-dev libecal1.2-dev evolution-data-server-dbg evolution-data-server-dev evolution-data-server libpanel-applet2-dev libpanel-applet2-doc
+ * Extra-Exclude: gnome-panel-dbg gstreamer0.10-plugins-base-dbg
+ * Extra-Exclude: libnautilus-extension-dev libnautilus-extension1 nautilus libexempi-dev libexempi3
+ * Extra-Exclude: mono-dbg libmono0-dbg mono-jit-dbg libmono-dev mono-2.0-devel libmono2.0-cil
+ * Extra-Exclude: python-qt4-gl python-qt4-gl-dbg # We don't want python-qt4-gl in main
+ * Extra-Exclude: g77-doc # pulls in gcc-3.4
+ * Extra-Exclude: libkiten-dev
+ * Extra-Exclude: sendmail-doc
+ * Extra-Exclude: mono-dbg # only useful with mono-debugger, currently in universe
+ * Extra-Exclude: python-renderpm-dbg
+ * Extra-Exclude: python-reportlab-accel-dbg # packages aren't in main, -dbg shouldn't cause them to be
+ * Extra-Exclude: libnewlib-dev # not used in main, we only want newlib-spu for powerpc
+ * Extra-Exclude: libgnumail-java-doc # depends on classpath
+ * Extra-Exclude: javacc-doc # depends on classpath
+ * Extra-Exclude: libvirtodbc-dev libvirtodbc0 virtuoso-opensource virtuoso-opensource-6.0 virtuoso-opensource-6.0-bin virtuoso-opensource-6.0-common virtuoso-vad-conductor virtuoso-vad-doc virtuoso-vsp-startpage # not MIR approved
+ * Extra-Exclude: libgl1-mesa-dri-experimental-dbg # LP: #638097
+ * Extra-Exclude: kdesvn kdesvn-dbg kdesvn-kio-plugins libsvnqt-dev libsvnqt6
+ * Extra-Exclude: python-vigra-doc # libvigraimpex is in main, but nothing uses python-vigra
+ * Extra-Exclude: packagekit-dbg
+
+Transitional packages:
+
+ * Extra-Exclude: xserver-xorg-video-amd-dbg
+
+Exclude some KDE-specific pieces corresponding to packages we don't want to support in Kubuntu:
+
+ * Extra-Exclude: libdcop3-java-dev
+ * Extra-Exclude: libindex0-dev
+ * Extra-Exclude: libsmokekde-dev
+ * Extra-Exclude: kdeutils-dev #in universe because of klaptopdaemon
+ * Extra-Exclude: kmplayer-doc
+ * Extra-Exclude: libkiten4 libkiten-dev
+ * Extra-Exclude: liblinphone-dev
+
+Kubuntu:
+
+ * libk3b6-extracodecs
+ * oxygen-cursor-theme-extra
+ * gtk2-engines-oxygen
+ * kdeplasma-addons
+ * kdewebdev # needs to be in main else has no translations
+ * kdetoys # needs to be in main else has no translations
+ * libqtwebkit-qmlwebkitplugin
+ * libqtwebkit4-declarative
+ #* kubuntu-netbook
+ * kdeaccessibility-dbg
+ * kdeutils-dbg
+ #* kubuntu-docs putting back in ship to get on the dvd
+
+ * /^kde-l10n-.+$/
+ * /^calligra-l10n-.+$/
+ * /^kdevelop-l10n-.+$/
+ * /^amarok-help-.+$/
+
+= Build infrastructure =
+
+ * pkgbinarymangler # needs to be in main to stay in the buildd chroots
+
+= Transitional packages wanted in Main =
+# This is to support upgrades if Universe is not enabled
+ * kcm-gtk
+ * kcm-touchpad
+ * kttsd
+ * kcron
+ * virtuoso-nepomuk 
+ * network-manager-kde
+ * kdebase-workspace
+ * kdebase-runtime
+ * kdegraphics-libs-data
+ * kdepimlibs5

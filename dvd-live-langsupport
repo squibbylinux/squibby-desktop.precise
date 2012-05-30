@@ -1,0 +1,678 @@
+= Language packs =
+
+ * /^language-pack-[^-]+$/
+ * /^language-pack-kde-[^-]+$/
+
+= Language support for aa =
+
+= Language support for af =
+ * firefox-locale-af
+ * hyphen-af
+ * libreoffice-l10n-af
+ * myspell-af
+
+= Language support for am =
+ * fonts-sil-abyssinica
+
+= Language support for an =
+
+= Language support for ar =
+ * firefox-locale-ar
+ * hunspell-ar
+ * libreoffice-l10n-ar
+ * poppler-data
+ * fonts-arabeyes
+ * fonts-kacst
+
+= Language support for as =
+ * libreoffice-l10n-as
+ * ttf-bengali-fonts
+
+= Language support for ast =
+ * firefox-locale-ast
+ * libreoffice-l10n-ast
+
+= Language support for az =
+
+= Language support for be =
+ * firefox-locale-be
+ * libreoffice-l10n-be-by
+
+= Language support for ber =
+
+= Language support for bg =
+ * libreoffice-l10n-bg
+ * myspell-bg
+ * wbulgarian
+
+= Language support for bn =
+ * firefox-locale-bn
+ * hyphen-bn
+ * libreoffice-l10n-bn
+ * ttf-bengali-fonts
+
+= Language support for bo =
+ * fonts-tibetan-machine
+
+= Language support for br =
+ * firefox-locale-br
+ * libreoffice-l10n-br
+
+= Language support for bs =
+ * firefox-locale-bs
+ * libreoffice-l10n-bs
+
+= Language support for byn =
+
+= Language support for ca =
+ * firefox-locale-ca
+ * hyphen-ca
+ * libreoffice-help-ca
+ * libreoffice-l10n-ca
+ * myspell-ca
+ * mythes-ca
+ * wcatalan
+
+= Language support for crh =
+
+= Language support for cs =
+ * firefox-locale-cs
+ * libreoffice-help-cs
+ * libreoffice-l10n-cs
+ * myspell-cs
+ * mythes-cs
+ * openoffice.org-hyphenation
+
+= Language support for csb =
+
+= Language support for cy =
+ * libreoffice-l10n-cy
+
+= Language support for da =
+ * firefox-locale-da
+ * hunspell-da
+ * libreoffice-help-da
+ * libreoffice-l10n-da
+ * openoffice.org-hyphenation
+ * wdanish
+
+= Language support for de =
+ * firefox-locale-de
+ * gimp-help-de
+ * hunspell-de-at
+ * hunspell-de-ch
+ * hunspell-de-de
+ * hyphen-de
+ * libreoffice-help-de
+ * libreoffice-l10n-de
+ * mythes-de
+ * mythes-de-ch
+ * wngerman
+ * wogerman
+ * wswiss
+
+= Language support for dv =
+
+= Language support for dz =
+ * libreoffice-help-dz
+ * libreoffice-l10n-dz
+ * fonts-tibetan-machine
+
+= Language support for el =
+ * firefox-locale-el
+ * libreoffice-help-el
+ * libreoffice-l10n-el
+ * myspell-el-gr
+ * openoffice.org-hyphenation
+ * fonts-mgopen
+
+= Language support for en =
+ * firefox-locale-en
+ * gimp-help-en
+ * hunspell-en-ca
+ * hunspell-en-us
+ * hyphen-en-us
+ * libreoffice-help-en-gb
+ * libreoffice-help-en-us
+ * libreoffice-l10n-en-gb
+ * libreoffice-l10n-en-za
+ * myspell-en-au
+ * myspell-en-gb
+ * myspell-en-za
+ * mythes-en-au
+ * mythes-en-us
+ * openoffice.org-hyphenation
+ * wamerican
+ * wbritish
+
+= Language support for eo =
+ * firefox-locale-eo
+ * libreoffice-l10n-eo
+ * myspell-eo
+
+= Language support for es =
+ * firefox-locale-es
+ * gimp-help-es
+ * libreoffice-help-es
+ * libreoffice-l10n-es
+ * myspell-es
+ * openoffice.org-hyphenation
+ * wspanish
+
+= Language support for et =
+ * firefox-locale-et
+ * libreoffice-help-et
+ * libreoffice-l10n-et
+ * myspell-et
+
+= Language support for eu =
+ * firefox-locale-eu
+ * hunspell-eu-es
+ * libreoffice-help-eu
+ * libreoffice-l10n-eu
+
+= Language support for fa =
+ * firefox-locale-fa
+ * libreoffice-l10n-fa
+ * myspell-fa
+ * fonts-farsiweb
+ * fonts-sil-scheherazade
+
+= Language support for fi =
+ * firefox-locale-fi
+ * libenchant-voikko
+ * libreoffice-help-fi
+ * libreoffice-l10n-fi
+ * libreoffice-voikko
+ * mozvoikko
+ * openoffice.org-hyphenation
+ * tmispell-voikko
+ * voikko-fi
+
+= Language support for fil =
+
+= Language support for fo =
+ * myspell-fo
+ * wfaroese
+
+= Language support for fr =
+ * firefox-locale-fr
+ * gimp-help-fr
+ * hunspell-fr
+ * hyphen-fr
+ * libreoffice-help-fr
+ * libreoffice-l10n-fr
+ * mythes-fr
+ * wfrench
+
+= Language support for fur =
+
+= Language support for fy =
+ * firefox-locale-fy
+
+= Language support for ga =
+ * firefox-locale-ga
+ * libreoffice-l10n-ga
+ * myspell-ga
+ * openoffice.org-hyphenation
+ * wirish
+ * wmanx
+
+= Language support for gd =
+ * firefox-locale-gd
+ * myspell-gd
+
+= Language support for gez =
+
+= Language support for gl =
+ * firefox-locale-gl
+ * hunspell-gl-es
+ * libreoffice-help-gl
+ * libreoffice-l10n-gl
+ * wgalician-minimos
+
+= Language support for gu =
+ * firefox-locale-gu
+ * libreoffice-l10n-gu
+ * ttf-gujarati-fonts
+
+= Language support for gv =
+ * myspell-gv
+
+= Language support for ha =
+
+= Language support for he =
+ * firefox-locale-he
+ * libreoffice-l10n-he
+ * myspell-he
+ * fonts-sil-ezra
+
+= Language support for hi =
+ * firefox-locale-hi
+ * libreoffice-help-hi
+ * libreoffice-l10n-hi
+ * ttf-devanagari-fonts
+
+= Language support for hne =
+
+= Language support for hr =
+ * firefox-locale-hr
+ * libreoffice-l10n-hr
+ * myspell-hr
+
+= Language support for hsb =
+
+= Language support for ht =
+
+= Language support for hu =
+ * firefox-locale-hu
+ * hunspell-hu
+ * hyphen-hu
+ * libreoffice-help-hu
+ * libreoffice-l10n-hu
+ * mythes-hu
+
+= Language support for hy =
+ * firefox-locale-hy
+ * myspell-hy
+
+= Language support for ia =
+
+= Language support for id =
+ * libreoffice-l10n-id
+ * openoffice.org-hyphenation
+
+= Language support for ig =
+
+= Language support for ik =
+
+= Language support for is =
+ * firefox-locale-is
+ * libreoffice-l10n-is
+ * openoffice.org-hyphenation
+
+= Language support for it =
+ * firefox-locale-it
+ * gimp-help-it
+ * hyphen-it
+ * libreoffice-help-it
+ * libreoffice-l10n-it
+ * myspell-it
+ * mythes-it
+ * witalian
+
+= Language support for iu =
+
+= Language support for iw =
+
+= Language support for ja =
+ * ibus-anthy
+ * libreoffice-help-ja
+ * libreoffice-l10n-ja
+ * poppler-data
+ * fonts-takao-gothic
+ * fonts-takao-mincho
+
+= Language support for ka =
+ * libreoffice-l10n-ka
+
+= Language support for kk =
+ * firefox-locale-kk
+ * hunspell-kk
+
+= Language support for kl =
+
+= Language support for km =
+ * libreoffice-help-km
+ * libreoffice-l10n-km
+ * fonts-khmeros
+
+= Language support for kn =
+ * firefox-locale-kn
+ * hyphen-kn
+ * ttf-kannada-fonts
+
+= Language support for ko =
+ * firefox-locale-ko
+ * gimp-help-ko
+ * hunspell-ko
+ * ibus-hangul
+ * libreoffice-help-ko
+ * libreoffice-l10n-ko
+ * nabi
+ * poppler-data
+ * ttf-alee
+ * fonts-nanum-extra
+
+= Language support for ks =
+
+= Language support for ku =
+ * libreoffice-l10n-ku
+ * myspell-ku
+
+= Language support for kw =
+
+= Language support for ky =
+
+= Language support for la =
+
+= Language support for lb =
+
+= Language support for lg =
+ * firefox-locale-lg
+
+= Language support for li =
+
+= Language support for lo =
+ * fonts-lao
+
+= Language support for lt =
+ * firefox-locale-lt
+ * libreoffice-l10n-lt
+ * myspell-lt
+
+= Language support for lv =
+ * firefox-locale-lv
+ * libreoffice-l10n-lv
+ * myspell-lv
+
+= Language support for mai =
+ * firefox-locale-mai
+
+= Language support for mg =
+
+= Language support for mi =
+
+= Language support for mk =
+ * libreoffice-l10n-mk
+
+= Language support for ml =
+ * firefox-locale-ml
+ * libreoffice-l10n-ml
+ * ttf-malayalam-fonts
+
+= Language support for mn =
+ * libreoffice-l10n-mn
+ * fonts-manchufont
+
+= Language support for mr =
+ * firefox-locale-mr
+ * libreoffice-l10n-mr
+ * ttf-devanagari-fonts
+
+= Language support for ms =
+
+= Language support for mt =
+
+= Language support for my =
+ * fonts-sil-padauk
+
+= Language support for nan =
+
+= Language support for nb =
+ * firefox-locale-nb
+ * libreoffice-l10n-nb
+ * myspell-nb
+ * wnorwegian
+
+= Language support for nds =
+
+= Language support for ne =
+ * hunspell-ne
+ * libreoffice-l10n-ne
+ * mythes-ne
+ * ttf-devanagari-fonts
+
+= Language support for nl =
+ * firefox-locale-nl
+ * gimp-help-nl
+ * libreoffice-help-nl
+ * libreoffice-l10n-nl
+ * myspell-nl
+ * openoffice.org-hyphenation
+ * wdutch
+
+= Language support for nn =
+ * gimp-help-nn
+ * libreoffice-l10n-nn
+ * myspell-nn
+ * wnorwegian
+
+= Language support for nr =
+ * libreoffice-l10n-nr
+ * myspell-nr
+
+= Language support for nso =
+ * firefox-locale-nso
+
+= Language support for oc =
+ * libreoffice-l10n-oc
+
+= Language support for om =
+ * libreoffice-help-om
+ * libreoffice-l10n-om
+
+= Language support for or =
+ * libreoffice-l10n-or
+ * ttf-oriya-fonts
+
+= Language support for pa =
+ * firefox-locale-pa
+ * hyphen-pa
+ * libreoffice-l10n-pa-in
+ * ttf-punjabi-fonts
+
+= Language support for pap =
+
+= Language support for pl =
+ * firefox-locale-pl
+ * gimp-help-pl
+ * hyphen-pl
+ * libreoffice-help-pl
+ * libreoffice-l10n-pl
+ * myspell-pl
+ * mythes-pl
+ * wpolish
+
+= Language support for ps =
+
+= Language support for pt =
+ * firefox-locale-pt
+ * libreoffice-help-pt
+ * libreoffice-help-pt-br
+ * libreoffice-l10n-pt
+ * libreoffice-l10n-pt-br
+ * myspell-pt
+ * openoffice.org-hyphenation
+ * wbrazilian
+ * wportuguese
+
+= Language support for ro =
+ * firefox-locale-ro
+ * hunspell-ro
+ * hyphen-ro
+ * libreoffice-l10n-ro
+ * mythes-ro
+
+= Language support for ru =
+ * firefox-locale-ru
+ * gimp-help-ru
+ * libreoffice-help-ru
+ * libreoffice-l10n-ru
+ * hunspell-ru
+ * mythes-ru
+ * openoffice.org-hyphenation
+
+= Language support for rw =
+ * libreoffice-l10n-rw
+
+= Language support for sa =
+
+= Language support for sc =
+
+= Language support for sd =
+
+= Language support for se =
+ * hunspell-se
+
+= Language support for shs =
+
+= Language support for si =
+ * firefox-locale-si
+ * libreoffice-l10n-si
+
+= Language support for sid =
+
+= Language support for sk =
+ * firefox-locale-sk
+ * libreoffice-help-sk
+ * libreoffice-l10n-sk
+ * myspell-sk
+ * mythes-sk
+ * openoffice.org-hyphenation
+
+= Language support for sl =
+ * firefox-locale-sl
+ * hyphen-sl
+ * libreoffice-help-sl
+ * libreoffice-l10n-sl
+ * myspell-sl
+
+= Language support for so =
+
+= Language support for sq =
+ * firefox-locale-sq
+
+= Language support for sr =
+ * hunspell-sr
+ * hyphen-sr
+ * libreoffice-l10n-sr
+
+= Language support for ss =
+ * libreoffice-l10n-ss
+ * myspell-ss
+
+= Language support for st =
+ * libreoffice-l10n-st
+ * myspell-st
+
+= Language support for sv =
+ * firefox-locale-sv
+ * gimp-help-sv
+ * libreoffice-help-sv
+ * libreoffice-l10n-sv
+ * myspell-sv-se
+ * openoffice.org-hyphenation
+ * wswedish
+
+= Language support for sw =
+ * myspell-sw
+
+= Language support for ta =
+ * libreoffice-l10n-ta
+ * ttf-tamil-fonts
+
+= Language support for te =
+ * firefox-locale-te
+ * libreoffice-l10n-te
+ * ttf-telugu-fonts
+
+= Language support for tg =
+ * libreoffice-l10n-tg
+
+= Language support for th =
+ * gtk-im-libthai
+ * libreoffice-l10n-th
+ * myspell-th
+ * ttf-thai-tlwg
+
+= Language support for ti =
+
+= Language support for tig =
+
+= Language support for tk =
+
+= Language support for tl =
+
+= Language support for tlh =
+
+= Language support for tn =
+ * libreoffice-l10n-tn
+ * myspell-tn
+
+= Language support for tr =
+ * firefox-locale-tr
+ * libreoffice-l10n-tr
+
+= Language support for ts =
+ * libreoffice-l10n-ts
+ * myspell-ts
+
+= Language support for tt =
+
+= Language support for ug =
+ * libreoffice-l10n-ug
+
+= Language support for uk =
+ * firefox-locale-uk
+ * libreoffice-l10n-uk
+ * myspell-uk
+ * openoffice.org-hyphenation
+ * wukrainian
+
+= Language support for ur =
+ * fonts-nafees
+ * fonts-sil-scheherazade
+
+= Language support for uz =
+ * hunspell-uz
+ * libreoffice-l10n-uz
+
+= Language support for ve =
+ * libreoffice-l10n-ve
+ * myspell-ve
+
+= Language support for vi =
+ * hunspell-vi
+ * ibus-unikey
+ * libreoffice-l10n-vi
+
+= Language support for wa =
+
+= Language support for wal =
+
+= Language support for wo =
+
+= Language support for xh =
+ * libreoffice-l10n-xh
+ * myspell-xh
+
+= Language support for yi =
+ * fonts-sil-ezra
+
+= Language support for yo =
+
+= Language support for zh-hans =
+ * firefox-locale-zh-hans
+ * libreoffice-help-zh-cn
+ * libreoffice-l10n-zh-cn
+ * ttf-arphic-ukai
+ * fonts-arphic-uming
+ * ttf-wqy-zenhei
+
+= Language support for zh-hant =
+ * firefox-locale-zh-hant
+ * ibus-chewing
+ * ibus-table-cangjie
+ * libreoffice-help-zh-tw
+ * libreoffice-l10n-zh-tw
+ * ttf-arphic-ukai
+ * fonts-arphic-uming
+ * ttf-wqy-zenhei
+
+= Language support for zu =
+ * firefox-locale-zu
+ * hyphen-zu
+ * libreoffice-l10n-zu
+ * myspell-zu
+

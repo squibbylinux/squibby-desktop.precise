@@ -1,0 +1,41 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Kubuntu live CD
+Task-Extended-Description: This task provides the extra packages installed on the Kubuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Task-Relevance: 2
+Task-Key: ubiquity-frontend-kde
+Task-Test-new-install: skip show
+Task-Seeds: live-common
+
+ * Languages: en
+ * language-pack-${Languages}
+ * language-pack-kde-${Languages}
+
+# subset of English language support which we want by default:
+# * libreoffice-help-en-us [i386 amd64 powerpc]
+ * hunspell-en-us
+ * openoffice.org-hyphenation
+ * wamerican
+
+by order of popcon (de es fr ru it pt pl ja zh nl cs sv hu el)
+ * Languages: 
+ * language-pack-${Languages} [i386 amd64 powerpc]
+ * language-pack-kde-${Languages} [i386 amd64 powerpc]
+
+#fill up extra space
+ * Languages: de
+ * language-pack-${Languages} [i386 powerpc]
+ * language-pack-kde-${Languages} [i386 powerpc]
+
+#fill up extra space
+ * Languages: pt
+ * language-pack-${Languages} [powerpc]
+ * language-pack-kde-${Languages} [powerpc]
+
+== Ubiquity components ==
+
+These packages make up the Ubiquity live installer.
+
+ * ubiquity-frontend-kde
+ * ubiquity-ubuntu-artwork
+ * ubiquity-slideshow-kubuntu
