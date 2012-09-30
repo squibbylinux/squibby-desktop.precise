@@ -1,7 +1,7 @@
 Task-Per-Derivative: 1
 Task-Section: user
-Task-Description: Kubuntu live CD
-Task-Extended-Description: This task provides the extra packages installed on the Kubuntu live CD. It is neither useful nor recommended to install this task in other environments.
+Task-Description: Squibby live CD
+Task-Extended-Description: This task provides the extra packages installed on the Squibby live CD. It is neither useful nor recommended to install this task in other environments.
 Task-Relevance: 2
 Task-Key: ubiquity-frontend-kde
 Task-Test-new-install: skip show

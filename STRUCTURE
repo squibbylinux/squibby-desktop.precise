@@ -1,14 +1,6 @@
-include squibby-platform.precise
+include platform.precise
 desktop: desktop-common
-ship: boot installer desktop d-i-requirements
 live: desktop
-dvd-live-langsupport: live
-dvd-live: live dvd-live-langsupport ship-live
 ship-live: boot live
-development: desktop
-dvd-langsupport: ship
-dvd: ship development supported-common dvd-langsupport
-full: dvd desktop
-supported-desktop-extra: dvd dvd-live
 # make sure supported remains the last entry
-supported: dvd-live ship-live dvd supported-desktop-extra
+supported: ship-live
